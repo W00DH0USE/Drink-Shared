@@ -1,7 +1,7 @@
 # Drink-Shared
 
 ## Getting Started
-#### Live Link: [Drink-Shared App](https://Drink-Shared-client-master-master-brown-nine.now.sh/)
+#### Live Link: [Drink-Shared App](https://drink-shared.iyronwoodhouse.now.sh//)
 #### GitHub Repo: [Drink-Shared Client](https://github.com/W00DH0USE/Drink-Shared/)
 #### GitHub Repo: [Drink-Shared Server](https://github.com/W00DH0USE/Drink-Shared-server/)
 
