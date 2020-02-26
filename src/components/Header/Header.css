@@ -1,0 +1,93 @@
+.Header {
+  height: 55px;
+  display: flex;
+  align-items: normal;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.Header__Logo {
+  background: -webkit-linear-gradient(#AD974F 0,#FFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Drink-Shared__Logo {
+  height: 30px;
+  vertical-align: middle; 
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.Header h1 {
+  margin: 0;
+}
+
+.Header h1 a {
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0;
+}
+
+.Header a {
+  color: #FFF;
+  transition: all .2s;
+  text-decoration: none;
+  font-size: .7rem;
+  margin-right: 10px;
+}
+
+.Header a:hover {
+  color: #AD974F;
+}
+
+.Header__not-logged-in,
+.Header__logged-in {
+  display: flex;
+  margin-top: 15px;
+}
+
+.header-fa {
+  display: none;
+}
+
+.header-links {
+  font-size: 70%;
+}
+
+@media screen and (min-width: 640px) {
+  .Header h1 {
+    font-size: 22pt;
+  }
+
+  .Header h1 a {
+    font-size: 1.4rem;
+  }
+
+  .Header a {
+    font-size: 1rem;
+    margin-right: 1rem;
+  }
+
+  .left-a {
+    margin-right: 3rem;
+  }
+
+  .Header__not-logged-in,
+  .Header__logged-in {
+    margin-top: 15px;
+  }
+  .header-fa {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .Header h1 a {
+    font-size: 1.6rem;
+  }
+
+  .Header a {
+    font-size: 1rem;
+  }
+}

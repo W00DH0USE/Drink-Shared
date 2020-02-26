@@ -1,0 +1,183 @@
+.HomePage {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.HomePage__Banner {
+  text-align: center;
+  padding-top: 8.5rem;
+  height: 90vh;
+}
+
+.HomePage__Banner h1 {
+  background: -webkit-linear-gradient(#eee, #AD974F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: -14px;
+  font-size: 1.5rem;
+}
+
+.HomePage__Banner h2 {
+  font-size: 1rem;
+  margin-bottom: 50px;
+}
+
+.HomePage__HowItWorks {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.HomePage__HowItWorks h2{
+  margin-top: 0;
+}
+
+.HomePage-button {
+  margin: 1rem;
+  height: 40px;
+  color: #FFF;
+  background-color: #AD974F;
+  border: 1px solid #AD974F;
+  text-decoration: none;
+  margin: .67rem;
+  transition: all .4s;
+}
+
+.HowItWorks-1,
+.HowItWorks-2,
+.HowItWorks-3 {
+  display: inline-block;
+  margin: 20px;
+}
+
+.HowItWorks__Text {
+  width: 100%;
+  text-align: center;
+}
+.HowItWorks__Screenshot {
+  width: 100%;
+}
+
+.p1080-plus {
+  display: none;
+  width: 100%;
+}
+
+.HowItWorks__Screenshot img {
+  width: 100%;
+  border: 1px solid #AD974F;
+}
+
+.HowItWorks__Screenshot img:hover {
+  transition: all .7s ease-in-out;
+  width: 100%;
+}
+
+.HowItWorks__Text h3 {
+  color: #FFF;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.HowItWorks__Text p {
+  color: #FFF;
+  font-size: .9rem;
+}
+
+.HomePage__Footer {
+  text-align: center;
+}
+
+.HomePage__Footer__Text {
+  font-weight: 600;
+}
+
+.HomePage__Footer__Text a {
+  text-decoration: none;
+  color: #AD974F;
+  transition: all .4s;
+}
+
+.HomePage__Footer__Text a:hover {
+  color: #FFF;
+}
+
+.HomePage__Footer__Icon {
+  margin: 0 5px;
+  font-size: 160%;
+  transition: all .4s;
+}
+
+.Linkedin__Icon:hover {
+  color: #0e76a8;
+}
+
+.Github__Icon:hover {
+  color: #000;
+}
+
+.HomePage__Footer__Copyright {
+  font-size: 80%;
+}
+
+@media screen and (min-width: 1080px) {
+  .HowItWorks-1,
+  .HowItWorks-2,
+  .HowItWorks-3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 6rem 0;
+  }
+
+  .HowItWorks__Text {
+    padding: 0 10px;
+    text-align: left;
+  }
+
+  .HowItWorks__Screenshot {
+    text-align: left;
+  }
+  
+  .HowItWorks__Screenshot img {
+    width: 550px;
+  }
+  
+  .HowItWorks__Screenshot img:hover {
+    transition: all .7s ease-in-out;
+    width: 650px;
+  }
+
+  .HomePage__HowItWorks {
+    width: 81%;
+  }
+
+  .p1080-plus {
+    display: block;
+  }
+  .p1080-minus {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 860px) {
+  .HomePage__Banner h1 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .HowItWorks__Text p {
+    font-size: .9rem;
+  }
+  .HomePage-button {
+    font-size: 1.5rem;
+    height: 80px;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .HomePage__Banner h1 {
+    font-size: 3rem;
+  }
+}

@@ -1,0 +1,27 @@
+.App {
+  height: 100vh;
+  margin: 0 auto;
+  left: 0;
+  top: 0;
+}
+
+.App__header {
+  margin: 0 auto;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
+.App__main {
+  overflow: auto;
+  margin-top: 70px;
+  margin: 0px auto;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
+@media screen and (min-width: 1000px) {
+  .App__header {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+}

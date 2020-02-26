@@ -1,0 +1,132 @@
+.CreateArticleForm,
+.RegistrationForm,
+.LoginForm {
+  margin-bottom: 50px;
+}
+
+.Hyph {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.Input,
+.Textarea,
+select {
+  border: 1px solid #FFF;
+  display: block;
+  margin: 0 auto 20px auto;
+  text-align: left;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #FFF;
+  outline: none;
+  transition: all .3s;
+  padding: 0 2rem;
+  font-size: 1.3rem !important;
+  width: 80%;
+}
+
+.Input,
+select {
+  height: 60px;
+}
+
+.Textarea {
+  padding-top: 10px;
+}
+
+.Input::placeholder,
+.Textarea::placeholder {
+  color: #FFF;
+}
+
+.Textarea {
+  resize: vertical;
+}
+
+.CommentForm Textarea {
+  margin: 20px auto;
+}
+
+.Button {
+  border: 1px solid #FFF;
+  background-color: #FFF;
+  font-size: 1em;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-weight: bold;
+  height: 60px;
+  max-width: 250px;
+  cursor: pointer;
+}
+
+.login-button,
+.register-button,
+.createArticle-button,
+.comment-button {
+  width: 40%;
+  transition: all .4s;
+}
+
+.login-button,
+.register-button {
+  margin-top: 20px;
+}
+
+.login-button:hover,
+.register-button:hover,
+.createArticle-button:hover,
+.comment-button:hover,
+.HomePage-button:hover {
+  color: #FFF;
+  background-color: transparent;
+}
+
+.Required {
+  color: #CA1551;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.Section {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.Section--list {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.LoginPage,
+.RegistrationPage,
+.CreateArticlePage {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.LoginPage h2,
+.RegistrationPage h2,
+.CreateArticlePage h2,
+.ArticlePage h2 {
+  font-size: 2rem;
+}
+
+.style select option{
+  padding: 0 10px;
+}
+
+@media screen and (min-width: 800px) {
+  .Input, select, Textarea {
+    width: 60% !important;
+  }
+
+  .Input, select {
+    height: 80px;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .Input, select, Textarea {
+    width: 50% !important;
+  }
+}
